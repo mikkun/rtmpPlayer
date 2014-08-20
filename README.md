@@ -12,10 +12,11 @@ Compile
 
 To build the **rtmpPlayer**, you will need the following:
 
-* **MinimalCompsHX**: <https://github.com/Beeblerox/MinimalCompsHX>
-* **NME**: <http://www.nme.io> (or <https://github.com/haxenme/NME>)
+* **Haxe 2.10.0**: <http://haxe.org/download/version/2.10.0>
+* **MinimalCompsHX(for Haxe2.10)**: <https://github.com/Beeblerox/MinimalCompsHX/tree/Haxe2.10>
+* **NME 3.5.4**: <https://github.com/haxenme/nme/tree/3.5.4>
 
-To compile with **Haxe**, enter the following command:
+To compile with **Haxe 2.10.0**, enter the following command:
 
     $ cd rtmpPlayer/src
     $ haxe --dead-code-elimination -main rtmpPlayer.Main -swf rtmpPlayer.swf
